@@ -1,0 +1,21 @@
+.center {
+  display: block;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 3px 10px 40px 7px rgba(0, 0, 0, 0.75);
+}
+
+.purple-text {
+  color: #9932cc !important;
+}
+
+.purple-background {
+  background-color: #9932cc !important;
+}
+
+.purple-background-login {
+  background-color: #9932cc !important;
+  opacity: 0.9;
+}

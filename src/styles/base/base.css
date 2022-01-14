@@ -1,0 +1,38 @@
+html {
+  font-size: 90%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.container-fluid {
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  max-width: 93%;
+}
+
+.container-block {
+  display: block;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  max-width: 93%;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}

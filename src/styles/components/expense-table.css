@@ -1,0 +1,45 @@
+@media only screen and (max-width: 838px) {
+  .sn {
+    display: none;
+  }
+  .visibilityDate {
+    display: none;
+  }
+  .visibilityNote {
+    display: none;
+  }
+  img {
+    display: none;
+  }
+}
+
+.table-header {
+  cursor: context-menu;
+  width: 97px;
+}
+
+.amt {
+  width: 110px;
+}
+
+.sn {
+  width: 30px;
+}
+
+.actions {
+  width: 115px;
+}
+
+.visibilityNote {
+  width: 40%;
+}
+
+.table td,
+.table th {
+  border: none;
+}
+
+.table-bordered {
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+}

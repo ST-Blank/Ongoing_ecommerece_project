@@ -1,0 +1,22 @@
+const fetchExpenses = async () => {
+    setLoading(true);
+    try {
+        firebase.auth().onAuthStateChanged((user) => {
+            if (user) {
+                store.dispatch(login(user.uid));
+                store.dispatch(startSetExpenses(store.dispatch));
+
+                if (history.location.pathname === '/') {
+                    history.push('/dashboard');
+                }
+            } else {
+                store.dispatch(logout());
+                history.push('/');
+            }
+        });
+        setLoading(false);
+    } catch (err) {
+        setLoading(false);
+        console.log(err);
+    }
+};

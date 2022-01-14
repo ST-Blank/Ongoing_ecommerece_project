@@ -1,0 +1,68 @@
+.search-bar {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  max-width: 274px !important;
+}
+
+.dropdown-sort {
+  margin-left: 1rem;
+  padding-right: 0 !important;
+  margin-top: 0.5rem;
+}
+
+.btn-primary {
+  width: 125px;
+  padding: 9px !important;
+}
+
+.btn-success {
+  padding: 9px !important;
+}
+
+.add-expense {
+  margin-top: 0.5rem;
+}
+
+.add {
+  display: block;
+  margin-left: auto;
+}
+
+.DateRangePicker {
+  margin-left: 1rem;
+  width: 580px !important;
+  margin-top: 0.5rem;
+}
+
+.DateInput {
+  padding: 4px;
+  width: auto !important;
+}
+
+.DateRangePickerInput__clear-dates {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 1010px) {
+  .filters {
+    display: block;
+    width: 100%;
+  }
+  .add {
+    margin-left: auto;
+    display: block;
+  }
+  .DateRangePicker {
+    width: 470px !important;
+  }
+}
+
+@media only screen and (max-width: 603px) {
+  .add {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .btn-success {
+    width: 100%;
+  }
+}
